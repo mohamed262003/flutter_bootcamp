@@ -1,0 +1,77 @@
+name: flutter_bootcamp
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - images/
+    - json/
+    - fonts/
+
+  fonts:
+    - family: Dosis
+      fonts:
+        - asset: fonts/Dosis/Dosis-Bold.ttf
+        - asset: fonts/Dosis/Dosis-ExtraBold.ttf
+        - asset: fonts/Dosis/Dosis-ExtraLight.ttf
+        - asset: fonts/Dosis/Dosis-Light.ttf
+        - asset: fonts/Dosis/Dosis-Medium.ttf
+        - asset: fonts/Dosis/Dosis-Regular.ttf
+        - asset: fonts/Dosis/Dosis-SemiBold.ttf
+        - asset: fonts/Dosis/Dosis-VariableFont_wght.ttf
+          style: normal
+          weight: 500
+    - family: Monofett
+      fonts:
+        - asset: fonts/Monofett-Regular.ttf
+          style: normal
+
+    - family: Explora
+      fonts:
+        - asset: fonts/Explora-Regular.ttf
+          style: normal
+
+    - family: Limelight
+      fonts:
+        - asset: fonts/Limelight-Regular.ttf
+          style: normal
+          weight: 100
+    - family: EnglishSC
+      fonts:
+        - asset: fonts/IMFellEnglishSC-Regular.ttf
+          style: normal
+          weight: 100
+
+    - family: CinzelDecorative
+      fonts:
+        - asset: fonts/CinzelDecorative-Black.ttf
+        - asset: fonts/CinzelDecorative-Bold.ttf
+        - asset: fonts/CinzelDecorative-Regular.ttf
+          style: normal
+          weight: 500
+
